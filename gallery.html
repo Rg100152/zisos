@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Zisos Zoological Park</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="topbar-note">🕒 Open today 8:30 AM – 5:30 PM &nbsp;|&nbsp; Weekly holiday: Monday</span>
+      <span class="topbar-contact">
+        <a href="tel:+919000000000">+91 90000 00000</a>
+        <a href="mailto:info@zisos.example">info@zisos.example</a>
+      </span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">Z</span>
+        <span class="brand-text"><strong>Zisos</strong><small>Zoological Park</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="things.html">Animals</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="do-dont.html">Do's &amp; Don'ts</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html" class="btn btn-primary nav-cta">Book Ticket</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p>Home &nbsp;›&nbsp; Gallery</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="animals">Animals</button>
+        <button class="chip" data-filter="nature">Nature</button>
+        <button class="chip" data-filter="heritage">Heritage</button>
+        <button class="chip" data-filter="family">Family</button>
+      </div>
+
+      <div class="gallery-grid gallery-grid-lg" id="galleryGrid">
+        <figure class="gallery-item" data-category="nature"><img src="images/gallery/lake.svg" alt="Morning at the lake" loading="lazy" /><figcaption class="gallery-cap">Morning at the lake<small>Nature</small></figcaption></figure>
+        <figure class="gallery-item" data-category="animals"><img src="images/gallery/tiger.svg" alt="The royal Bengal tiger" loading="lazy" /><figcaption class="gallery-cap">The royal Bengal tiger<small>Animals</small></figcaption></figure>
+        <figure class="gallery-item" data-category="nature"><img src="images/gallery/butterfly.svg" alt="Butterfly garden" loading="lazy" /><figcaption class="gallery-cap">Butterfly garden<small>Nature</small></figcaption></figure>
+        <figure class="gallery-item" data-category="animals"><img src="images/gallery/elephant.svg" alt="Elephant bath time" loading="lazy" /><figcaption class="gallery-cap">Elephant bath time<small>Animals</small></figcaption></figure>
+        <figure class="gallery-item" data-category="heritage"><img src="images/gallery/baradari.svg" alt="Historic Baradari" loading="lazy" /><figcaption class="gallery-cap">Historic Baradari<small>Heritage</small></figcaption></figure>
+        <figure class="gallery-item" data-category="family"><img src="images/gallery/park.svg" alt="Children's park" loading="lazy" /><figcaption class="gallery-cap">Children's park<small>Family</small></figcaption></figure>
+        <figure class="gallery-item" data-category="animals"><img src="images/gallery/peacock.svg" alt="Peacock in bloom" loading="lazy" /><figcaption class="gallery-cap">Peacock in bloom<small>Animals</small></figcaption></figure>
+        <figure class="gallery-item" data-category="nature"><img src="images/gallery/sunset.svg" alt="Sunset over Zisos" loading="lazy" /><figcaption class="gallery-cap">Sunset over Zisos<small>Nature</small></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Zisos Zoological Park</h4>
+        <p>Where the wild meets wonder</p>
+        <p class="footer-addr">Zisos Zoological Park, Nature Road, Green City, India</p>
+        <div class="social">
+          <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://youtube.com/" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="booking.html">Book Ticket</a></li>
+          <li><a href="things.html">Things to Watch</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
+          <li><a href="do-dont.html">Do's &amp; Don'ts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support Us</h4>
+        <ul>
+          <li><a href="adopt.html">Adopt an Animal</a></li>
+          <li><a href="adopt.html">Donate</a></li>
+          <li><a href="about.html">About Zisos</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p>Get updates on events and new arrivals.</p>
+        <form class="newsletter-form js-demo-form">
+          <input type="email" name="email" placeholder="Your email" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 Zisos Zoological Park. All rights reserved.</span>
+        <span>Open daily except Monday</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

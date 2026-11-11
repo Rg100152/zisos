@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopt &amp; Donate | Zisos Zoological Park</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="topbar-note">🕒 Open today 8:30 AM – 5:30 PM &nbsp;|&nbsp; Weekly holiday: Monday</span>
+      <span class="topbar-contact">
+        <a href="tel:+919000000000">+91 90000 00000</a>
+        <a href="mailto:info@zisos.example">info@zisos.example</a>
+      </span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">Z</span>
+        <span class="brand-text"><strong>Zisos</strong><small>Zoological Park</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="things.html">Animals</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="do-dont.html">Do's &amp; Don'ts</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html" class="btn btn-primary nav-cta">Book Ticket</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <h1>Adopt &amp; Donate</h1>
+      <p>Home &nbsp;›&nbsp; Adopt &amp; Donate</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <div class="prose">
+        <h2>Give an animal a better tomorrow</h2>
+        <p>Adopting an animal at Zisos is a wonderful way to support its daily food, medical care and enrichment. Choose an animal, make a contribution, and we'll send you an adoption certificate and a photo of your new friend.</p>
+        <p>Prefer to simply donate? Every rupee goes directly towards the care of our rescued and resident animals.</p>
+        <div class="value-grid single">
+          <div class="value-card"><span class="plan-icon">🍽️</span><h3>Food &amp; Nutrition</h3><p>Balanced diets prepared daily in our zoo kitchen.</p></div>
+          <div class="value-card"><span class="plan-icon">🩺</span><h3>Medical Care</h3><p>24x7 veterinary support and a wildlife hospital.</p></div>
+          <div class="value-card"><span class="plan-icon">🎾</span><h3>Enrichment</h3><p>Toys, activities and habitats that keep animals happy.</p></div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>Adopt / Donate Form</h3>
+        <form class="form js-demo-form" data-success="Thank you! Your request has been received. Our team will contact you shortly with the details and your certificate.">
+          <div class="field">
+            <label for="kind">I would like to</label>
+            <select id="kind" name="kind">
+              <option value="adopt">Adopt an animal</option>
+              <option value="donate">Make a donation</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="animal">Animal (optional for donation)</label>
+            <select id="animal" name="animal">
+              <option value="">— Select —</option>
+              <option>Bengal Tiger</option>
+              <option>Asiatic Lion</option>
+              <option>Indian Elephant</option>
+              <option>White Peacock</option>
+              <option>Hippopotamus</option>
+              <option>Chimpanzee</option>
+              <option>Indian Rhinoceros</option>
+              <option>Emperor Penguin</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="amount">Amount (₹)</label>
+            <input type="number" id="amount" name="amount" min="0" step="50" placeholder="1000" />
+          </div>
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="field">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Zisos Zoological Park</h4>
+        <p>Where the wild meets wonder</p>
+        <p class="footer-addr">Zisos Zoological Park, Nature Road, Green City, India</p>
+        <div class="social">
+          <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://youtube.com/" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="booking.html">Book Ticket</a></li>
+          <li><a href="things.html">Things to Watch</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="events.html">Upcoming Events</a></li>
+          <li><a href="do-dont.html">Do's &amp; Don'ts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support Us</h4>
+        <ul>
+          <li><a href="adopt.html">Adopt an Animal</a></li>
+          <li><a href="adopt.html">Donate</a></li>
+          <li><a href="about.html">About Zisos</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p>Get updates on events and new arrivals.</p>
+        <form class="newsletter-form js-demo-form" data-success="Subscribed! Thank you.">
+          <input type="email" name="email" placeholder="Your email" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 Zisos Zoological Park. All rights reserved.</span>
+        <span>Open daily except Monday</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
